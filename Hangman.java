@@ -7,7 +7,7 @@ public class Hangman{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        
+        //add some comments in here
         String word = "elephant";
         String hint = "Biggest animal";
         char[] guesses = {'_','_','_','_','_','_','_','_'};
