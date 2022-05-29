@@ -16,6 +16,8 @@ func main() {
 	//declare emty slice for placeholder
 	guesses := []string{}
 
+	//add map here to record users guesses
+
 	//append uderscores into empty slice
 	for i := 0; i < len(word); i++ {
 		guesses = append(guesses, "_")
