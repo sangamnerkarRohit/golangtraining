@@ -11,6 +11,7 @@ func (e employee) getFullName() string {
 	return e.fname + " " + e.lname
 }
 
+//Using pointer reciver pointer reciver
 func (e *employee) changeName() {
 	e.lname = "Sharma"
 }
